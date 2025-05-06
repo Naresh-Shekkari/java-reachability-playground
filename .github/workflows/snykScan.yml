@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Run Snyk to check for vulnerabilities test
+      - name: Run Snyk to check for vulnerabilities test by updting the snyk token
         uses: snyk/actions/maven@master
         
         env:
